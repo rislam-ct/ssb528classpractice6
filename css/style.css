@@ -1,0 +1,121 @@
+/*comon start*/
+body{
+	margin: 5px;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f2656;
+}
+
+/*comon end*/
+/*header start*/
+
+header	{padding: 15px 0;
+
+	border-bottom: 3px solid #f2f3f5;
+}
+
+.container {overflow: hidden;
+width: 90%;
+margin: 0 auto;
+}
+
+.logo	{
+	float: left;
+	width: 10%;
+		}
+.logo a {display: block;}
+
+.logo a img {width: 100%}
+
+.menu {float: right;
+	width: 70%; margin-top: 3px;
+	}
+
+.menu ul {float: right;}
+
+.menu ul li {list-style: none;
+float: left;}
+
+.menu ul li a {text-decoration: none;
+padding: 0 15px;
+display: inline-block;
+color: #0f2656;}
+.menu	ul li a:hover {color: #1493ff}
+
+.menu ul li:last-child a {padding-right: 0;}
+
+/*header end*/
+/*bannar stat*/
+
+.bannar {padding: 50px;}
+.container2 {width: 50%; 
+	margin: 0 auto;
+overflow: hidden;}
+.t_center {text-align: center;}
+.b_h1 { font-size: 50px;
+font-weight: 800;
+line-height: 65px;
+margin: 17px 0 0;}
+
+.b_h1 span {color: #1493ff;}
+
+.b_p {line-height: 25px;
+margin: 15px 0 20px;}
+.b_img {width: 80%; margin: 0 auto;}
+.b_img img{width: 100%}
+
+/*bannar end*/
+/*about start*/
+
+.about {padding-bottom: 50px}
+.a_left {width: 45%;
+float: left;
+text-align: right;}
+.a_left h2 {font-size: 40px;
+font-weight: 700;
+margin: 0;}
+.a_left p {line-height: 25px;
+	margin: 5px 0 0 ;
+}
+.a_right {
+width: 52%;
+float: right;
+}
+.a_right h1 {font-size: 45px;
+font-weight: 700;
+margin: 0;}
+
+/*about end*/
+/*service start*/
+
+.service {}
+.s_item {width: 28.4%;
+float: left;
+padding: 55px 25px 80px;
+margin-right: 25px;}
+.s_item:first-child {background-color: #fdebed;}
+.s_item:nth-child(2) {background-color: #ebf9f4;}
+.s_item:last-child {background-color: #fff7e8;
+margin: 0;}
+.s_item img {width: 100%;}
+.s_h2 {margin: 15px 0;
+	font-size: 20px;
+font-weight: 700;}
+.s_p {margin: 0;
+line-height: 25px;}
+
+
+/*service end*/
+/*footer start*/
+
+footer { margin: 50px 0 0;
+		background-color: #1493ff;
+		padding: 25px;
+		text-align:center;}
+footer p {margin: 0;
+color: white;}
+footer p a {color: white;
+text-decoration: none;}
+/*footer end*/
+
